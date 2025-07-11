@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncyclopediaOfGames", "EncyclopediaOfGames\EncyclopediaOfGames.csproj", "{273DEA8B-E350-E1F2-4F3E-63203506159B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{273DEA8B-E350-E1F2-4F3E-63203506159B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{273DEA8B-E350-E1F2-4F3E-63203506159B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{273DEA8B-E350-E1F2-4F3E-63203506159B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{273DEA8B-E350-E1F2-4F3E-63203506159B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FBCEB52-2A92-42F3-9FFC-15CB34BBB1CA}
+	EndGlobalSection
+EndGlobal
