@@ -6,6 +6,11 @@ namespace EncyclopediaOfGames.Services
     internal class GameLibrary : IGameLibrary
     {
         private List<Game> games = new();
+        int Count => games.Count;
+        public bool IsEmpty()
+        {
+            return Count == 0 ? false : true;
+        }
         public void AddGame(string title, string genre)
         {
             games.Add(new Game { Title = title, Gengre = genre });

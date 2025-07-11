@@ -25,5 +25,16 @@
             }
             return result;
         }
+
+        public static int Choose(string message, int countEnd, int countStart = 0)
+        {
+            int number;
+            do
+            {
+                number = ReadInt(message);
+            }
+            while (!(number > countStart && number <= countEnd));
+            return number;
+        }
     }
 }
